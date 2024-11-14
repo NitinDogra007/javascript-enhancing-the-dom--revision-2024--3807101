@@ -1,24 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	text-align: center;
+	padding: 20px;
 }
 
 #contentArea {
-    background-color: white;
-    padding: 20px;
-    margin: auto;
-    width: 80%;
-    max-width: 500px;
-    border-radius: 5px;
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+	width: 80%;
+	max-width: 500px;
+	border-radius: 5px;
 }
 
 #dynamicText {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 button {
-    padding: 10px 15px;
-    cursor: pointer;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.fontBold {
+	font-weight: bold;
 }

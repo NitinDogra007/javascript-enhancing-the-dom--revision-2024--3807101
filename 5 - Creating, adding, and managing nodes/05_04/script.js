@@ -11,10 +11,12 @@ newAnnouncement.textContent = 'New office opening next month.';
 let oldAnnouncement = document.getElementById('announcementText');
 announcements.replaceChild(newAnnouncement, oldAnnouncement);
 
+// taskList.removeChild(taskList.firstElementChild);
+
 // Remove an element from the page
 let removeButton = document.getElementById('removeButton');
 removeButton.addEventListener('click', () => {
-    if (announcements.firstChild) {
-        announcements.removeChild(announcements.firstChild);
-    }
+	if (announcements.firstChild) {
+		announcements.removeChild(announcements.firstChild);
+	}
 });

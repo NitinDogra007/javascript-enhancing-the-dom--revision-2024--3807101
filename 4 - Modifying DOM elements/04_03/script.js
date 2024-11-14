@@ -8,3 +8,7 @@ function changeAttributes() {
     exampleLink.setAttribute('href', 'https://newexample.com');
     exampleLink.textContent = 'Visit NewExample.com';
 }
+
+//attributes are additional information for HTML elements
+
+//e.g href, src, and id
